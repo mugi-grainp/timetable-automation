@@ -1,0 +1,19 @@
+% --------------------------------------------------
+% 余白設定
+\dimen0=-1in    %用紙左上隅を原点にする
+\dimen1=-1in    %用紙左上隅を原点にする
+\dimen2=297mm   %用紙の幅を指定 (A4: 210mm)
+\dimen3=420mm   %用紙の高さを指定 (A4: 297mm)
+\advance\dimen0 by 32mm     % 左余白の設定
+\advance\dimen1 by 20mm     % 上余白の設定
+\advance\dimen2 by -64mm    % 本文幅の設定 (用紙幅 - 左余白 - 右余白)
+\advance\dimen3 by -35mm    % 本文高さの設定 (用紙高さ - 上余白 - 下余白)
+\hoffset=\dimen0            % 原点位置の変更
+\voffset=\dimen1            % 原点位置の変更
+\hsize=\dimen2              % 本文領域の幅
+\vsize=\dimen3              % 本文領域の高さ
+
+% 段落設定
+\parindent=0pt      % 1字字下げ
+\parskip=0pt      % 段落間隔設定
+% --------------------------------------------------
